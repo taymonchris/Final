@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Final</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>23900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+        <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>848</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Intro" sid="695651092275799">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="455014774813506" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.352594" y="0.239583" />
+                            <point x="0.647406" y="0.239583" />
+                            <point x="0.647406" y="0.760417" />
+                            <point x="0.352594" y="0.760417" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="144856567153580">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Keyboard" sid="393942446529997">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="TiledBackground" sid="718067700260479">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Taymon\Documents\UEA\POS\Trabalhos\Final\background.jpg" />
+        </object-type>
+        <object-type name="Water" sid="595426109258893">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="476569587200702">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Taymon\Documents\UEA\POS\Trabalhos\Final\tileset.jpg" />
+            <tiles />
+        </object-type>
+        <object-type name="Hut" sid="556317138971039">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="516711290756144" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Taymon\Documents\UEA\POS\Trabalhos\Final\hut.png">
+                        <collision-poly>
+                            <point x="0.5" y="0" />
+                            <point x="0.7" y="0.3" />
+                            <point x="0.81" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.13" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="Player" sid="158405060406379">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="965906022717262">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="520365531409483">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="799668201780511" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="213701317734504">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="507455293827477" speed="5">
+                    <frame duration="1" hotspotX="0.4375" hotspotY="0.5" original-source="C:\Users\Taymon\Documents\UEA\POS\Trabalhos\Final\firepit.png">
+                        <collision-poly>
+                            <point x="0.183099" y="0.368421" />
+                            <point x="0.429577" y="0.186235" />
+                            <point x="0.852113" y="0.267206" />
+                            <point x="0.957747" y="0.510121" />
+                            <point x="0.887324" y="0.773279" />
+                            <point x="0.429577" y="0.975708" />
+                            <point x="0.112676" y="0.692308" />
+                            <point x="0.112676" y="0.510121" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BossName" sid="566482070673075">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="BossLife" sid="646544630519119">
+            <plugin id="progressbar" />
+        </object-type>
+        <object-type name="Boss" sid="741040669623533">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="324843412398830" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Enemy" sid="639127416361570">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="587094080322210">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446949687659406" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap" sid="948337097991607">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="613771629048273">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Taymon\Documents\UEA\POS\Trabalhos\Final\tileset.jpg" />
+            <tiles />
+        </object-type>
+        <object-type name="Sprite2" sid="880300136008050">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="280333595600269" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="919898544785490">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Taymon\Documents\UEA\POS\Trabalhos\Final\background2.jpg" />
+        </object-type>
+        <object-type name="canoe" sid="415259631163088">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444331795896410" speed="5">
+                    <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Taymon\Documents\UEA\POS\Trabalhos\Final\canoe.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Intro.xml</layout>
+        <layout>Stage1.xml</layout>
+        <layout>Stage2.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="2" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
