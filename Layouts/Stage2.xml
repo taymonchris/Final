@@ -2,7 +2,7 @@
 <c2layout>
     <name>Stage2</name>
     <sid>964743745513481</sid>
-    <event-sheet>Event sheet 3</event-sheet>
+    <event-sheet>Stage2 Event sheet</event-sheet>
     <size>
         <width>2544</width>
         <height>480</height>
@@ -114,6 +114,20 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="CustomMovement">
+                            <properties>
+                                <stepping-mode>None</stepping-mode>
+                                <pixels-per-step>5</pixels-per-step>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
