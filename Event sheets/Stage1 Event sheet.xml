@@ -7,24 +7,7 @@
             <conditions>
                 <condition id="-2" name="On start of layout" sid="110777415213117" type="System" />
             </conditions>
-            <actions>
-                <action behavior="Pin" id="0" name="Pin to object" sid="442540290743535" type="SnakeBody1">
-                    <param id="0" name="Pin to">SnakeHead</param>
-                    <param id="1" name="Mode">3</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="755632971673956" type="SnakeBody2">
-                    <param id="0" name="Pin to">SnakeBody1</param>
-                    <param id="1" name="Mode">3</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="903680016622792" type="SnakeBody3">
-                    <param id="0" name="Pin to">SnakeBody2</param>
-                    <param id="1" name="Mode">3</param>
-                </action>
-                <action behavior="CustomMovement" id="3" name="Accelerate" sid="737505427859065" type="SnakeHead">
-                    <param id="0" name="Which">0</param>
-                    <param id="1" name="Acceleration">5000</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="413918080871061">
             <conditions>
@@ -49,15 +32,7 @@
                     <param id="0" name="Interval (seconds)">0.1</param>
                 </condition>
             </conditions>
-            <actions>
-                <action behavior="CustomMovement" id="6" name="Set angle of motion" sid="204011078645263" type="SnakeHead">
-                    <param id="0" name="Angle">angle(Self.X,Self.Y,Player.X,Player.Y)</param>
-                </action>
-                <action id="-22" name="Set angle toward position" sid="513611226433046" type="SnakeHead">
-                    <param id="0" name="X">Player.X</param>
-                    <param id="1" name="Y">Player.Y</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

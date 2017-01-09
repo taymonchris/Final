@@ -18,7 +18,6 @@
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
@@ -202,54 +201,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="SnakeHead" sid="110195465906604">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="CustomMovement" sid="489714370041685">
-                    <behavior id="custom" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="981851739320390">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769663874728753" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="SnakeBody1" sid="992352299504263">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin" sid="119656991376421">
-                    <behavior id="Pin" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="906917198101387">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="996836339856049" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="SnakeBody2" sid="826288524568938">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin" sid="706641628244428">
-                    <behavior id="Pin" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="315889814721587">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444135315047793" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Sprite3" sid="333396050679759">
             <plugin id="Sprite" />
             <animation-folder>
@@ -258,18 +209,27 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="SnakeBody3" sid="759493618560993">
+        <object-type name="Sprite4" sid="458204678692347">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="261772383261967" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="140250576213868">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite5" sid="917208974959062">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Pin" sid="656116622267476">
-                    <behavior id="Pin" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="612322145429102">
+                <behavior-type name="Solid" sid="427656399399451">
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="651514844635513" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="991945920044008" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
@@ -279,11 +239,13 @@
     <layout-folder>
         <layout>Intro.xml</layout>
         <layout>Stage1.xml</layout>
+        <layout>Stage3.xml</layout>
         <layout>Stage2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Intro Event sheet.xml</event-sheet>
         <event-sheet>Stage1 Event sheet.xml</event-sheet>
+        <event-sheet>Stage3 Event sheet.xml</event-sheet>
         <event-sheet>Stage2 Event sheet.xml</event-sheet>
     </event-folder>
     <global-instances>

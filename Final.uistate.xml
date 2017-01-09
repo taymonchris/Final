@@ -10,11 +10,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="1">Intro</layout>
+        <layout order="1">Intro</layout>
         <layout order="2">Stage1</layout>
-        <layout order="4">Stage2</layout>
-        <event-sheet order="3">Stage1 Event sheet</event-sheet>
-        <event-sheet order="5">Stage2 Event sheet</event-sheet>
+        <layout active="1" order="3">Stage2</layout>
+        <layout order="4">Stage3</layout>
+        <event-sheet order="5">Stage3 Event sheet</event-sheet>
+        <event-sheet order="6">Stage1 Event sheet</event-sheet>
+        <event-sheet order="8">Intro Event sheet</event-sheet>
+        <event-sheet order="7">Stage2 Event sheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -39,10 +42,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Enemy/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/canoe/" />
-        <folder expanded="1" path="animation-folder/SnakeHead/" />
-        <folder expanded="1" path="animation-folder/SnakeBody1/" />
-        <folder expanded="1" path="animation-folder/SnakeBody2/" />
         <folder expanded="1" path="animation-folder/Sprite3/" />
-        <folder expanded="1" path="animation-folder/SnakeBody3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
     </folders-expanded>
 </c2uistate>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Stage3 Event sheet</name>
+    <events>
+        <event-block sid="636695835811074">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="447851903590764" type="canoe">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="3" name="Accelerate" sid="969600767748448" type="canoe">
+                    <param id="0" name="Which">0</param>
+                    <param id="1" name="Acceleration">1000</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
