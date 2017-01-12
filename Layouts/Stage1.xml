@@ -154,6 +154,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <isAttacking>false</isAttacking>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
@@ -181,11 +184,11 @@
                         <x>189</x>
                         <y>371</y>
                         <z>0</z>
-                        <width>64</width>
+                        <width>50</width>
                         <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.984375</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -390,11 +393,11 @@
                         <x>1409</x>
                         <y>374</y>
                         <z>0</z>
-                        <width>64</width>
-                        <height>64</height>
+                        <width>43</width>
+                        <height>57</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.511627913</hotspotX>
+                        <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
